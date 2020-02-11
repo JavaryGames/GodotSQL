@@ -6,4 +6,4 @@ def configure(env):
 	if env["platform"] == "android":
 		return
 		env.android_add_java_dir("android");
-		env.android_add_to_manifest("android/AndroidManifestChunk.xml")
+		env.android_add_to_manifest("./modules/GodotSQL/android/AndroidManifestChunk.xml")
